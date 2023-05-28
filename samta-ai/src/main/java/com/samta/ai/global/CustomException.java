@@ -3,7 +3,7 @@ package com.samta.ai.global;
 import lombok.Data;
 
 @Data
-public class CustomException extends Exception{
+public class CustomException extends Throwable{
     private int statusCode;
     private String errorMessage;
 
